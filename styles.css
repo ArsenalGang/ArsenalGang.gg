@@ -7,13 +7,19 @@ body {
     color: rgb(81, 0, 211);
 }
 
-hr {
+.hrNorm {
 width: 80%;
 background-color: rgb(0, 12, 122);
 border: outset 1px rgb(41, 62, 255);
 height: 2px;
 }
 
+.hrShort {
+    width: 20%;
+    background-color: rgb(0, 12, 122);
+    border: outset 1px rgb(41, 62, 255);
+    height: 2px;
+}
 .welcomeTextHeader {
     color: darkblue;
     font-size: 30px;
