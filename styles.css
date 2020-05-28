@@ -1,8 +1,13 @@
 body {
+    margin: 0;
     background-color: #0362fc;
 }
 
 ::selection {
+    background-color: rgb(184, 223, 255);
+    color: rgb(81, 0, 211);
+}
+::-moz-selection {
     background-color: rgb(184, 223, 255);
     color: rgb(81, 0, 211);
 }
@@ -27,7 +32,7 @@ height: 2px;
     font-weight: bold;
 }
 
-.discordLogoWrap, .discordLogoWrap:visited {
+.discordLogoWrap, .discordLogoWrap:visited, .discordLogoWrap:link {
     height: auto; 
     width: auto; 
     border: outset 10px rgb(0, 0, 255);
@@ -101,4 +106,34 @@ height: 2px;
     color: rgb(0, 194, 10);
     background-color: transparent;
     text-decoration: none;
+}
+
+.youTubeLogoWrap, .youTubeLogoWrap:visited, .youTubeLogoWrap:link {
+    height: auto;
+    width: auto;
+    border: outset 10px blue
+}
+.youTubeLogoWrap:hover {
+    border: solid 10px rgb(0, 194, 168)
+}
+.youTubeLogoWrap:active {
+    border: inset 10px rgb(0, 255, 221)
+}
+
+.backToJumperButton, .backToJumperButton:visited, .backToJumperButton:link {
+    background-color: lightskyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: darkblue;
+    padding: 7px 9px;
+    font-weight: bold;
+    border: outset 5px silver
+}
+.backToJumperButton:hover {
+    background-color: rgb(0, 255, 255);
+    color: rgb(33, 33, 141);
+}
+.backToJumperButton:active {
+    background-color: rgb(198, 241, 255);
+    border: inset 5px silver
 }
